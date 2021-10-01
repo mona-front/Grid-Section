@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600&display=swap');
+body , html{
+    width: 100%;
+    height: 100vh;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F2F2;
+
+
+}
+.container{
+    background-color: transparent;
+    font-family: 'Barlow Semi Condensed', sans-serif;;
+    display: grid;
+    /* grid-template-columns:255px;
+    grid-template-rows:280px ; */
+    grid-gap: 1.5em 1.875em;
+    width: 69.375em;
+    height: 35.75em;
+   
+}
+section{
+    padding: 1.625em 2em;
+    border-radius: 8px;
+    text-align: left;
+}
+header{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header .fullName{
+    font-size: 13px;
+    margin-bottom:3px;
+    
+}
+header .info{
+    margin-left: 15px;
+}
+header .educationStatus{
+    font-size: 11px;
+    opacity: 0.7;
+}
+ .title{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1.1875em;
+    margin-bottom: 1.25em;
+} 
+.description{
+    font-size: 13px;
+    color: #CFCFCF;
+    line-height: 18px;
+
+}
+
+.gridDaniel{
+    background-color:#733FC8;
+    background-image: url("images/bg-pattern-quotation.svg");
+    background-repeat: no-repeat;
+    background-position: 266px 0px ;
+    color: #ffff;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:4;
+    width: 33.75em;
+    height: 17.625em;
+}
+.gridDaniel .profileImage{
+    display: block;
+    position: relative;
+    width:1.75em;
+    height:1.75em;
+    border-radius: 50%;
+    border:2px solid #A775F1;
+    background-image: url("images/image-daniel.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.Jonathan{
+    color: #fff;
+    background-color: #48556A;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    width:15.9375em;
+    height: 17.625em;
+
+
+}
+.Jonathan .profileImage{
+    display: block;
+    position: relative;
+    width:1.75em;
+    height:1.75em;
+    border-radius: 50%;
+    background-image: url("images/image-jonathan.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.Jeanette{
+    background-color: #FFFFFF;
+    color: #48556A;
+    grid-column-start:1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end:5;
+    width: 15.9375em;
+    height: 16.625em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.Jeanette .profileImage{
+    display: block;
+    position: relative;
+    width:1.75em;
+    height:1.75em;
+    border-radius: 50%;
+    background-image: url("images/image-jeanette.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+
+.Patrick{
+    background-color:#19202D ;
+    color: #ffff;
+    grid-column-start:2;
+    grid-column-end: 4;
+    grid-row-start:2;
+    grid-row-end:5 ;
+    width: 33.875em;
+    height: 16.625em;
+   
+}
+.Patrick .profileImage{
+    display: block;
+    position: relative;
+    width:1.75em;
+    height:1.75em;
+    border-radius: 50%;
+    border:2px solid #A775F1;
+    background-image: url("images/image-patrick.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.Kira{
+    background-color: #FFFFFF;
+    color: #48556A;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end:5 ;
+    width:15.9375em;
+    height:35.75em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Kira .profileImage{
+    display: block;
+    position: relative;
+    width:1.75em;
+    height:1.75em;
+    border-radius: 50%;
+    background-image: url("images/image-kira.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* mobile */
+@media (max-width:768px){
+    .container{
+        width: 20.4375em;
+        height: 114em;
+        display: block;
+        
+    }
+    section{
+       width: 100%;
+       margin-bottom: 24px;
+       
+    }
+    .gridDaniel{
+        height: 27.75em;
+        width: 20.4375em;
+      
+    }
+    .Jonathan{
+        height: 15em;
+        width: 100%;
+        
+    }
+    .Jeanette{
+        height: 13.875em;
+        width: 100%;
+       
+    }
+    .Patrick{
+        height: 24em;
+        width: 100%;
+        
+    }
+    .Kira{
+        width: 100%;
+        height: 27.375em;
+    }
+}
