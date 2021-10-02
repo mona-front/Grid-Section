@@ -1,10 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600&display=swap');
-body , html{
-    width: 100%;
-    height: 100vh;
 
-}
 *{
     margin: 0;
     padding: 0;
@@ -69,7 +65,7 @@ header .educationStatus{
     background-color:#733FC8;
     background-image: url("images/bg-pattern-quotation.svg");
     background-repeat: no-repeat;
-    background-position: 266px 0px ;
+    background-position: 350px 0px ;
     color: #ffff;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -145,7 +141,7 @@ header .educationStatus{
     grid-row-start:2;
     grid-row-end:5 ;
     width: 33.875em;
-    height: 16.625em;
+    /* height: 16.625em; */
    
 }
 .Patrick .profileImage{
@@ -168,7 +164,7 @@ header .educationStatus{
     grid-row-start: 1;
     grid-row-end:5 ;
     width:15.9375em;
-    height:35.75em;
+    /* height:35.75em; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -183,7 +179,7 @@ header .educationStatus{
     background-size: cover;
 }
 /* mobile */
-@media (max-width:768px){
+@media (max-width:1160px){
     .container{
         width: 20.4375em;
         height: 114em;
@@ -196,6 +192,7 @@ header .educationStatus{
        
     }
     .gridDaniel{
+        background-position: 192px 0;
         height: 27.75em;
         width: 20.4375em;
       
@@ -211,12 +208,12 @@ header .educationStatus{
        
     }
     .Patrick{
-        height: 24em;
+        /* height: 24em; */
         width: 100%;
         
     }
     .Kira{
         width: 100%;
-        height: 27.375em;
+        /* height: 27.375em; */
     }
 }
