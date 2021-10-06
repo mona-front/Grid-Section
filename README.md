@@ -14,10 +14,10 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
-![](images/Testimonials-grid.png)
+![Grid-Section](images/Capture.PNG)
 
 ### Links
-- Live Site URL: [Testimonials grid section URL here](https://hamed3958.github.io/Testimonials-grid-section/)
+- Live Site URL: [Grid-section URL here](https://mona-front.github.io/Grid-Section/)
 
 ### Built with
 - Semantic HTML5 markup
@@ -27,6 +27,5 @@ Users should be able to:
 
 
 ## Author
-- Website - [hamedasadiasl.ir](http://hamedasadiasl.ir/)
-- Github - [@hamed3958](https://github.com/hamed3958)
-- Frontend Mentor - [@hamed3958](https://www.frontendmentor.io/profile/hamed3958)
+
+- Github - [mona-front](https://github.com/mona-front)
