@@ -2,11 +2,11 @@
 
 ### Screenshot
 
-![](./capture.jpg)
+![](images/capture.jpg)
 
 
 ### Links
 
 
-- Live Site URL: (https://mona-front.github.io/grid/)
+- Live Site URL:[ Grid Section URL here] (https://mona-front.github.io/grid/)
 
